@@ -1,3 +1,50 @@
-h1 {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* or 'Roboto', sans-serif; if you prefer */
+    background-color: #d3d3d3;
+}
+#navbar {
+    display : flex;
+    justify-content : space-evenly;
+    align-items :  center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+#about{
+    width:50%;
+    margin: 0 auto;
+}
+
+li{
+list-style: none;
+
+}
+
+#projects, #experiences{
+    width: 65%;
+    margin: 100px auto;
 }
